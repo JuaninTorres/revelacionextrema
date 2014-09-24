@@ -19,6 +19,7 @@ class InformationTableSeeder extends Seeder {
                 'fecha' => $faker->dateTime,
                 'user_id' => $faker->numberBetween(1,11),
                 'slug' => \Str::slug($titulo),
+                'image_url' => '/images/demo_noticia.jpg'
 			]);
 		}
 	}
