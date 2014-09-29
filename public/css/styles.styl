@@ -21,17 +21,26 @@ body
 
 .wrapper
     width 100%
+    height 100%
 
 #izq
     background url("/images/bg_noticias.png") repeat-x #272727
     display inline-block
-
+    float left
+    height 100%
+    width 200px
 
 #der
     background url("/images/bg_principal.png")
 
 .logo_principal
     width 50%
+
+.menu-principal
+    font-family  'Dosis', sans-serif
+    font-size 1.2em
+    color white
+    text-shadow 0 0 1px black
 
 .noticia
     h2
@@ -42,5 +51,18 @@ body
         font-size 2em
         padding 0.5em
 
-    img
+    .noticia-contenido
+        background rgba(200,200,200,0.3)
+        display inline-block
+        margin 1em 2em
+        p
+            display inline-block
+            margin 1em 0 0 0
+            vertical-align top
+            width 70%
+        picture
+            width 25%
+            display inline-block
+
+
 
