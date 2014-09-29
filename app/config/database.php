@@ -55,7 +55,7 @@ return array(
 		'mysql' => array(
 			'driver'    => 'mysql',
 			'host'      => 'localhost',
-			'database'  => 'revextremadb',
+			'database'  => 'revelacionextremadb',
 			'username'  => 'revextrema',
 			'password'  => 'revextremapass',
 			'charset'   => 'utf8',
