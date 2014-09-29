@@ -40,9 +40,11 @@
                     </ul>
                 </nav>
             </header>
-
-            @yield('contenido')
+            <div class="contenido">
+                @yield('contenido')
+            </div>
             <footer>
+                <p>&copy2014 RevelacionExtrema</p>
             </footer>
         </div>
 

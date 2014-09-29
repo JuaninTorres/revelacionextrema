@@ -1,0 +1,25 @@
+body
+{
+	background-color: black;
+	overflow: hidden;
+
+}
+#todo
+{
+ 	width: 380px;
+ 	overflow: hidden;
+}
+#repro1
+{
+	width: 380px;
+
+	text-align: center;
+	overflow: hidden;
+
+}
+
+#repro2
+{
+	margin-top: -28px;
+	width: 100%;
+}

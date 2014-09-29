@@ -184,6 +184,11 @@ th {
   font-weight: normal;
   font-style: normal;
 }
+html,
+body,
+#wrapper {
+  height: 100%;
+}
 body {
   background: #000;
   font-size: 16px;
@@ -217,12 +222,24 @@ header .titulo {
   display: inline-block;
   width: 50%;
 }
+footer {
+  background-image: url("/images/bg_lineas_amarillas_footer.png");
+  background-repeat: no-repeat;
+  background-position: center top;
+  height: 190px;
+  color: #fff;
+  font-family: 'Play', sans-serif;
+}
+footer p {
+  text-align: center;
+  padding-top: 10em;
+}
 #izq {
-  background: url("/images/bg_noticias.png") repeat-x #272727;
+  background: url("/images/bg_noticias_right.png") no-repeat 170px 0px, url("/images/bg_noticias.png") repeat-x;
+  background-color: #272727;
   display: inline-block;
-  float: left;
   height: 100%;
-  width: 15%;
+  width: 200px;
 }
 #der {
   background: url("/images/bg_principal.png");
@@ -230,8 +247,21 @@ header .titulo {
   height: 100%;
   width: 85%;
 }
-.logo_principal {
-  width: 50%;
+.logo_principal,
+.contenido {
+  margin: 0.5em;
+}
+.anuncio-home {
+  background-image: url("/images/bg_anuncio.png");
+  background-repeat: no-repeat;
+  height: 150px;
+  width: 845px;
+  padding: 1em;
+  color: #fff;
+  font-size: 1.5em;
+}
+.anuncio-home h2 {
+  margin-top: 0.2em;
 }
 .menu-principal {
   background-image: url("/images/bg_menu.png");
@@ -256,6 +286,21 @@ header .titulo {
 }
 .menu-principal a:hover {
   border-bottom: solid 2px #fff;
+}
+.chat,
+.player {
+  display: inline-block;
+  vertical-align: top;
+}
+.chat {
+  width: 400px;
+  height: 500px;
+  background-image: url("/images/bg_chat.png");
+  background-repeat: no-repeat;
+}
+.player {
+  width: 500px;
+  height: 500px;
 }
 /* Iconos Sprites */
 .social-twitter {
